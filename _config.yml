@@ -11,7 +11,7 @@ description: >-
 # URL del proyecto principal
 url: 'https://phyfth.github.io'
 # Dirección en caso de ser éste un proyecto secundario: url/baseurl
-baseurl: '/v6'
+baseurl: ''
 # Autor principal del Blog
 author: phyfth
 # Avatar del Blog (sidebar: arriba del título)
