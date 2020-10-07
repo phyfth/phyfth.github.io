@@ -1,0 +1,15 @@
+- Quité la fuente de Google en fonts.scss
+- Quité la fotografía de perfil o logotipo en sidebar.html
+- Cambié el color del sidebar en main.scss
+- Cambié los margenes del título (4rem 4rem 4rem 4rem) en mains.scss
+- Quité el margen izquierdo del título (1383) en main.scss
+- Centré el título (1395) en main.scss
+- Modifiqué el grosor del título (89) en main.scss
+- Quité los iconos del sidebar (52) en sidebar.html
+- Quité el margen izquierdo de las entradas del sidebar (1416) en main.scss
+- Quité el padding izquierdo de las entradas del sidebar (1418) en main.scss
+- Quité categorías y tags del footer del post (84-110) en post.html
+- Quité la sección de actualizaciones y trending tags (10-50) en panel.html
+- Quité el margen superior a los derechos de autores (53) en post.scss
+- Modifiqué el archivo timeago.js para ponerlo en español
+- Quité el footer derecho (22-32) en footer.html

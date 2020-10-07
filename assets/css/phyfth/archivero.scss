@@ -1,0 +1,65 @@
+//  Contenedor de las lectures notes
+.lecture-notes-box{
+    padding-top: 10px;
+}
+
+//  Estilo de todos los <span> dentro del div lecture-notes-box
+.lecture-notes-box>span{
+    font-size: 14px;
+}
+//  Estilo de todos los <ul> dentro del div lecture-notes-box
+.lecture-notes-box>ol{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+//  Estilo de todos los <a> dentro del div lecture-notes-icons
+.lecture-notes-icons>a{
+    display: inline-block;
+    float: right;
+    letter-spacing: 10px;
+    border-bottom: none !important;
+    transition: color 0.2s ease-in-out;
+}
+//  Estilo para la barra de búsqueda
+.lecture-notes-box>input{
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgba($color-note,0.5);
+    margin-bottom: 12px;
+    border-radius: 25px;
+    background-color: var(--admonition-bg-color);
+    color: var(--text-color);
+    &::placeholder{
+        color: var(--text-color);
+    }
+    &:focus{
+        outline: none;
+    }
+}
+//  Quitar el borde inferior a los links y cambiar su tamaño.
+a.ln-link{
+    border-bottom: none;
+    font-size: 20px;
+    transition: color 0.2s ease-in-out;
+    &:hover{
+        border-bottom: none;
+    }
+}
+//  Añadir un espacio inferior de 12px
+.pb-12{
+    padding-bottom: 12px;
+}
+//  Cambiar grosor de la fuente (= 500)
+.fw-500{
+    font-weight: 500;
+}
+//  Cambiar grosor de la fuente (= 100)
+.fw-100{
+    font-weight: 100;
+}
+//  Estilo de la descripción de los cursos
+p.description{
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    line-height: initial;
+}

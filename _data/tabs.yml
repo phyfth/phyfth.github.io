@@ -1,0 +1,21 @@
+-
+  name: Inicio
+  icon: "fas fa-home"
+-
+  name: "Cursos"
+  icon: "fas fa-tags"
+  path: docs
+  url: cursos
+-
+  name: "Avisos"
+  path: docs
+  url: avisos
+-
+  name: "Calendario"
+  path: docs
+  url: calendario
+-
+  name: "Registro"
+  path: tabs
+  url: archives
+  icon: "fas fa-archive"
