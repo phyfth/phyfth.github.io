@@ -22,7 +22,7 @@ type: curso
 <!--    ------------------------------------------------------------    -->
             <div class="lecture-notes-icons pb-12">
                 {% if variable.id %}
-                    <a href="https://phyfth.github.io/v6/docs/mecanica-clasica/discusion/{{ variable.id }}"><i class="far fa-comment"></i></a>
+                    <a href="{{site.url}}/docs/mecanica-clasica/discusion/{{ variable.id }}"><i class="far fa-comment"></i></a>
                 {% endif %}
                     <a href="#" target="_blank"><i class="fas fa-download"></i></a>
                 {% if variable.tarea %}
