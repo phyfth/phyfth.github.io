@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://phyfth.github.io/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/cursos/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/avisos/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/calendario/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/tabs/archives/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/posts/bienvenida-al-blog/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/posts/admonitions/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/mecanica-clasica/portafolio/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/mecanica-clasica/discusion/01_mec_cla_qslp/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/mecanica-clasica/discusion/02_mec_cla_edycslff/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/mecanica-clasica/discusion/03_mec_cla_pdcplp/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://phyfth.github.io/docs/mecanica-clasica/discusion/04_mec_cla_catvf/</loc>
+  <lastmod>2020-10-07T21:54:48+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
