@@ -19,13 +19,13 @@
 
     constructor() {
       if (this.mode != null) {
-        if (this.mode == ModeToggle.LIGHT_MODE) {
-          if (!this.isSysLightPrefer) {
-            this.setLight();
+        if (this.mode == ModeToggle.DARK_MODE) {
+          if (!this.isSysDarkPrefer) {
+            this.setDark();
           }
         } else {
-          if (this.isSysLightPrefer) {
-            this.setDark();
+          if (this.isSysDarkPrefer) {
+            this.setLight();
           }
         }
       }
