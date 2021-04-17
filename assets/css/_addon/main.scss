@@ -44,12 +44,12 @@ html[mode=dark] {
   @include mode-toggle(true);
 }
 
-@media (prefers-color-scheme: dark) {
-  html:not([mode]), html[mode=dark] {
+@media (prefers-color-scheme: light) {
+  html:not([mode]), html[mode=light] {
     @include mode-toggle(true);
   }
 
-  html[mode=light] {
+  html[mode=dark] {
     @include mode-toggle();
   }
 }
