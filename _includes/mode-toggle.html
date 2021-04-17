@@ -37,12 +37,12 @@
         if (self.mode != null) {
           if (self.mode == ModeToggle.DARK_MODE) {
             if (!self.isSysDarkPrefer) {
-              self.setDark();
+              self.setLight();
             }
 
           } else {
             if (self.isSysDarkPrefer) {
-              self.setLight();
+              self.setDark();
             }
           }
 
