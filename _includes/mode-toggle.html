@@ -1,3 +1,11 @@
+<!--
+  Switch the mode between dark and light.
+
+  v2.1
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2020 Cotes Chung
+  MIT License
+-->
 
 <i class="mode-toggle fas fa-sun" dark-mode-invisible></i>
 <i class="mode-toggle fas fa-moon" light-mode-invisible></i>
@@ -6,18 +14,18 @@
 
   class ModeToggle {
     static get MODE_KEY() { return "mode"; }
-    static get LIGHT_MODE() { return "light"; }
     static get DARK_MODE() { return "dark"; }
+    static get LIGHT_MODE() { return "light"; }
 
     constructor() {
       if (this.mode != null) {
-        if (this.mode == ModeToggle.LIGHT_MODE) {
-          if (!this.isSysLightPrefer) {
-            this.setLight();
+        if (this.mode == ModeToggle.DARK_MODE) {
+          if (!this.isSysDarkPrefer) {
+            this.setDark();
           }
         } else {
-          if (this.isSysLightPrefer) {
-            this.setDark();
+          if (this.isSysDarkPrefer) {
+            this.setLight();
           }
         }
       }
@@ -25,16 +33,16 @@
       var self = this;
 
       /* always follow the system prefers */
-      this.sysLightPrefers.addListener(function() {
+      this.sysDarkPrefers.addListener(function() {
         if (self.mode != null) {
-          if (self.mode == ModeToggle.LIGHT_MODE) {
-            if (!self.isSysLightPrefer) {
-              self.setLight();
+          if (self.mode == ModeToggle.DARK_MODE) {
+            if (!self.isSysDarkPrefer) {
+              self.setDark();
             }
 
           } else {
-            if (self.isSysLightPrefer) {
-              self.setDark();
+            if (self.isSysDarkPrefer) {
+              self.setLight();
             }
           }
 
@@ -60,13 +68,13 @@
       sessionStorage.removeItem(ModeToggle.MODE_KEY);
     }
 
-    get sysLightPrefers() { return window.matchMedia("(prefers-color-scheme: light)"); }
+    get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); }
 
-    get isSysLightPrefer() { return this.sysLightPrefers.matches; }
+    get isSysDarkPrefer() { return this.sysDarkPrefers.matches; }
 
-    get isLightMode() { return this.mode == ModeToggle.LIGHT_MODE; }
+    get isDarkMode() { return this.mode == ModeToggle.DARK_MODE; }
 
-    get isDarkkMode() { return this.mode == ModeToggle.DARK_MODE; }
+    get isLightkMode() { return this.mode == ModeToggle.LIGHT_MODE; }
 
     get hasMode() { return this.mode != null; }
 
@@ -74,26 +82,26 @@
 
     flipMode() {
       if (this.hasMode) {
-        if (this.isSysLightPrefer) {
-          if (this.isDarkkMode) {
-            this.clearMode();
-          } else {
-            this.setDark();
-          }
-
-        } else {
-          if (this.isLightMode) {
+        if (this.isSysDarkPrefer) {
+          if (this.isLightkMode) {
             this.clearMode();
           } else {
             this.setLight();
           }
+
+        } else {
+          if (this.isDarkMode) {
+            this.clearMode();
+          } else {
+            this.setDark();
+          }
         }
 
       } else {
-        if (this.isSysLightPrefer) {
-          this.setDark();
-        } else {
+        if (this.isSysDarkPrefer) {
           this.setLight();
+        } else {
+          this.setDark();
         }
       }
 
