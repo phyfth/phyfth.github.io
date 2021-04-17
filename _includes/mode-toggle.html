@@ -21,11 +21,11 @@
       if (this.mode != null) {
         if (this.mode == ModeToggle.DARK_MODE) {
           if (!this.isSysDarkPrefer) {
-            this.setLight();
+            this.setDark();
           }
         } else {
           if (this.isSysDarkPrefer) {
-            this.setDark();
+            this.setLight();
           }
         }
       }
